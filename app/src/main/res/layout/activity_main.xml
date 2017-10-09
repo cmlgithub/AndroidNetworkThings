@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:elevation="5dp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:onClick="HttpURLConnection"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HttpURLConnection" />
+
+        <TextView
+            android:elevation="5dp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:onClick="HttpClient"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HttpClient" />
+        <TextView
+            android:elevation="5dp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:onClick="HttpsURLConnection"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HttpsURLConnection" />
+
+    </LinearLayout>
+
+
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
