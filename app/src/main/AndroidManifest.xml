@@ -18,7 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TwoActivity"></activity>
+        <activity android:name=".VolleyActivity"></activity>
     </application>
 
 </manifest>

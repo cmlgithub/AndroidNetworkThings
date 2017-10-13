@@ -47,6 +47,19 @@
             android:layout_height="wrap_content"
             android:text="HttpsURLConnection" />
 
+        <TextView
+            android:elevation="5dp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:onClick="Volley"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volley" />
+
     </LinearLayout>
 
 
